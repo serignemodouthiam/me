@@ -1,0 +1,124 @@
+@media screen and (width <=720px) {
+    body {
+        font-size: 10px !important;
+        width: 100%;
+    }
+    .phone {
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    #haut {
+        margin-bottom: 150px;
+        padding: 5px;
+    }
+    .home-content p,
+    .about-content p {
+        line-height: 20px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* display: flex !important;
+        flex-direction: row; */
+    }
+    .navbar a {
+        font-size: 10px !important;
+    }
+    .home-image img,
+    .about img {
+        width: 50% !important;
+        height: 30% !important;
+    }
+    .navbar a {
+        margin: 5px auto !important;
+    }
+    .portefolio-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .portefolio-list {
+        width: 100%;
+        margin: 15px auto;
+    }
+    p {
+        font-size: 10px !important;
+    }
+    .h1-sidebar {
+        width: 60%;
+    }
+    .competence {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .about .image-profil {
+        margin: auto auto !important;
+    }
+    .competence-image {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .prof small {
+        font-size: 15px !important;
+    }
+    .progress-line span,
+    .progress-line {
+        height: 8px;
+    }
+    .header-competence {
+        font-size: 25px !important;
+        margin-bottom: 20px !important;
+    }
+    .progress-content,
+    .prof {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center !important;
+        align-items: center !important;
+        margin-top: 10px !important;
+    }
+    .titre {
+        display: flex !important;
+        box-sizing: border-box !important;
+        flex-direction: column !important;
+        font-size: 20px !important;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-content {
+        width: 100% !important;
+    }
+    .footer-content {
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 10px 0 !important;
+        border-bottom: 2px solid;
+    }
+    .social-media a {
+        font-size: 10px !important;
+        margin: 30px 15px !important;
+    }
+    .social-media {
+        margin: 30px auto !important;
+        border-top: 2px solid #004883;
+        /* padding: auto 10px !; */
+        border-right: none;
+    }
+    .retour {
+        display: none !important;
+    }
+    .phone {
+        background: transparent !important;
+    }
+}

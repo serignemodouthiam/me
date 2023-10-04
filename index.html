@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="index.js"></script>
+    <title>Portefolio</title>
+</head>
+
+<body>
+    <div id="haut"></div>
+    <header class="header">
+        <div class="phone">
+            <span style="font-family: 'Trebuchet MS'; font-weight: 600; font-size: 20px; ; text-decoration: underline 3px #004883; text-underline-offset: 5px;"><span style="color: blue;">T</span>hiamas<span style="color: #e34c26;">L</span>e
+            <span style="color: yellow;">P</span>ro
+            <i class="bx bx-shield-quarter"></i>
+            </span>
+        </div>
+        <nav class="navbar phone">
+            <a href="#haut" class="active" style="--i : 1;">Accueil <i class="bx bx-home"></i></a>
+            <a href="#portefolio" style="--i : 2;">Portefolio <i class="bx bx-user"></i></a>
+            <a href="#competence" style="--i : 3;">Competences <i class="bx bx-box"></i></a>
+            <a href="#about" style="--i : 4;">About <i class="bx bxs-widget"></i></a>
+            <a href="#contact" style="--i : 5;">Contact <i class="bx bx-mail-send"></i></a>
+        </nav>
+        <a href="#haut" style="position: absolute; top: 95vh;right: 10px; color: steelblue;font-size: 30px;">
+            <i class="bx bx-caret-up-circle"></i>
+        </a>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h1 class="h1-sidebar">Accueil <i class="bx bx-home"></i></h1>
+        </div>
+        <section class="home cacher phone">
+            <div class="home-content">
+                <h1 style="font-size: 18px;">Bonjour et Bienvenue
+                </h1>
+                <div class="titre">
+                    <span style="color: #004883; 
+                 letter-spacing: 2px;">Serigne Modou Thiam</span>
+                    </span>
+                    <i class="bx bx-link-alt" style="color: gold;"></i>
+                    <span class="1" style="color: rgba(172, 0, 0, 0.829); 
+                 letter-spacing: 2px;">
+                        FULL-STACK
+                    </span>
+                    <small style="color: dimgrey; 
+                    letter-spacing: 2px;" class="2" id="portefolio"> Administrateur Reseaux et Systeme</small>
+                </div>
+                <p>
+                    Heureux de vous presenter ce Portefolio qui integre bien une parfaite maitrise et une bonne connaissance des technologies citées, je suis impatient de vous faire part de ma potentialité indeniablement prometteuse au large de cet univers trés concurrentiel.
+                    <span style="font: italic 15px/18px;margin-top: 20px;">
+                        " La technologie ne cesse de nous eblouir tout comme un
+                        profil determiné dans cette aventure
+                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ad provident similique expedita corrupti quasi! Iste magnam mollitia id quis laborum saepe minima illo labore fuga accusamus, officia repellat consequuntur? -->
+                        "</span>
+                </p>
+            </div>
+            <div class="home-image">
+                <img class="image-profil" src="profil.jpg" alt>
+                <figcaption style="color: #2872afd0;">Serigne Modou Thiam
+                </figcaption>
+                <small class="1"> Developpeur Full-stack</small>
+            </div>
+        </section>
+        <!-- <hr style="color: white;"> -->
+        <div class="sidebar">
+            <h1 class="h1-sidebar">Portefolio <i class="bx bxs-wallet-alt"></i></h1>
+        </div>
+        <section class="portefolio cacher" style="background-image: url(1.jpg); border-radius: 10px;">
+            <div class="portefolio-content">
+                <div class="portefolio-list">
+                    <h2 style="border-left: 3px solid yellow;">Site E-commerce <i class="bx bx-shopping-bag"></i></h2>
+                    <img src="e-com.png" alt="e-com">
+                    <p>
+                        Ce projet, a titre personnel, met en oeuvre mes bases en
+                        <span style="color: yellow; font-weight: 500;">JavaScript</span> dont il a ete entierement developpe avec une experience utilisateur conviviale.
+                    </p>
+                </div>
+                <div class="portefolio-list">
+                    <h2 style="border-left: 3px solid red;">Gestion de presence <i class="bx bx-exit"></i></h2>
+                    <img src="entree.png" alt="e-com">
+                    <p>
+                        Ce site a pour but de gerer les flux de personnes au sein d'une structure. Rapidite et flexiblite du langage
+                        <span style="color: darkorchid;font-weight: 500; ">PHP
+                        </span> avec un traitement des requetes <span style="color: #e34c26; font-weight: 500;">Mysql</span> ont ete les principaux socles de ce travail.
+                    </p>
+                </div>
+                <div class="portefolio-list">
+
+                    <h2 style="border-left: 3px solid orange;">Actunet <i class="bx bxs-info-circle"></i></h2>
+                    <img src="actu.png" alt="e-com">
+                    <!-- <img src="1.jpg" alt=""> -->
+                    <p>
+                        Mon expertise dans les <span style="color: orange; font-weight: 500;">bonnes pratiques en developpement</span> a permis a Actunet d'etre de beneficier d'une attention particuliere sur la maintenance et l'accessiblilite des infos
+                        a mettre a jour. La mise a jour des infos devient plus rapide.
+                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sequi perspiciatis veniam ipsa vitae inventore, -->
+                    </p>
+                </div>
+                <div class="portefolio-list">
+
+                    <h2 style="border-left: 3px solid green;">Excel Vba <i class="bx bx-spreadsheet"></i></h2>
+                    <img src="excel.png" alt="e-com">
+                    <p>
+                        Une application developpée avec du Vba, incluant la facturation et la gestion de stock et client permet entre autre de traiter et gerer les commande et vente des client.
+                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, sequi perspiciatis veniam ipsa vitae inventore, -->
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <div class="sidebar" id="competence">
+            <h1 class="h1-sidebar">Compétences <i class="bx bx-user"></i></h1>
+        </div>
+        <section class="competence cacher">
+            <div class="competence-content">
+                <h3 class="header-competence">Technique
+                </h3>
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-html5" style="background-color: #e34c26; color: white;"></i>
+                        <span>
+                            html
+                        </span>
+                    </div>
+                    <div class="progress-line html">
+                        <span>
+                        </span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-css3" style="background-color: #035faa; color: white;"></i>
+                        <span>
+                            CSS
+                        </span>
+                    </div>
+                    <div class="progress-line css">
+                        <span>
+                        </span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-javascript" style="background-color: black; color: yellow;"></i>
+                        <span>
+                            JavaScript
+                        </span>
+                    </div>
+                    <div class="progress-line js">
+                        <span>
+                        </span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-php" style="background-color: transparent; color: rebeccapurple;"></i>
+                        <span>
+                            PHP & Mysql
+                        </span>
+                    </div>
+                    <div class="progress-line js">
+                        <span>
+                        </span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-python" style="background-color: transparent; color: rebeccapurple;"></i>
+                        <span>
+                            Python
+                        </span>
+                    </div>
+                    <div class="progress-line py">
+                        <span>
+                        </span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-react" style="background-color: transparent; color: darkblue;"></i>
+                        <span>
+                            React
+                        </span>
+                    </div>
+                    <div class="progress-line react">
+                        <span>
+                        </span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <i class="bx bxl-bootstrap" style="background-color: #004883; color: white;"></i>
+                        <span>
+                            Bootstrap
+                        </span>
+                    </div>
+                    <div class="progress-line bootstrap">
+                        <span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="competence-image">
+                <h3 class="header-competence">Professionnelles</h3>
+                <div class="progress-content">
+                    <div class="prof">
+                        <small>Communication 75%</small>
+                        <div class="cercle cercle-espace">
+                            <div class="progress-cercle">
+                                <div class="progress"></div>
+                                <div class="progress-50 communication"></div>
+                            </div>
+                        </div>
+                        <small>Creativite 60%</small>
+                        <div class="cercle">
+                            <div class="progress-cercle">
+                                <div class="progress"></div>
+                                <div class="progress-50 creativite"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prof">
+                        <small>Travail d'equipe 80%</small>
+                        <div class="cercle cercle-espace">
+                            <div class="progress-cercle">
+                                <div class="progress"></div>
+                                <div class="progress-50 equipe"></div>
+                            </div>
+                        </div>
+                        <small>Problemes resolus 55%</small>
+                        <div class="cercle">
+                            <div class="progress-cercle">
+                                <div class="progress"></div>
+                                <div class="progress-50 probleme"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar" id="about">
+                </div>
+        </section>
+        <h1 class="h1-sidebar">About Me <i class="bx bx-user"></i></h1>
+        </div>
+        <section class="about">
+            <div class="about-image">
+                <img class="image-profil" src="profil.jpg" alt>
+                <span> Developpeur Full-stack</span>
+            </div>
+            <div class="about-content" style="width: 80%; display: flex;flex-direction: column; text-align: center; margin-block: 50px;">
+                <h2>Ma determination, mon point de reference</h2>
+                <p style="padding-left: 5%;">
+                    Etant un developpeur hors paire et tres polyvalent sur de nombreux domaines en vogue, de la programmation à la securite informatique en passant par l'administration, mon experience et mes talents ont servi a la realisation de nombreux projets d'envergures
+                    scolaire et Professionnels.
+                    <span style="text-align: center;margin-top: 20px;">
+                        <a href="https://1drv.ms/w/s!Aos9RNblVAzqmAHjL4LrGMiqDf4R" target="_blank">
+                            Consulter mon CV pour plus d'infos
+                        </a>
+                    </span>
+                </p>
+            </div>
+        </section>
+        <footer class="footer cacher" id="contact">
+            <div class="sidebar">
+                <h1 class="h1-sidebar">Coordonnées <i class="bx bxs-contact"></i></h1>
+            </div>
+            <div class="footer-content">
+                <div class="social-media" style="color: #004883;">
+                    <h3>Reseaux sociaux <i class="bx bx-network-chart"></i></h3>
+                    <a href> <i class="bx bxl-facebook"></i></a>
+                    <a href> <i class="bx bxl-linkedin"></i></a>
+                    <a href> <i class="bx bxl-instagram"></i></a>
+                    <a href> <i class="bx bxl-gmail"></i></a>
+                </div>
+                <div class="social-media" style="color: #004883;">
+                    <h3>Coordonnées <i class="bx bx-map-alt"></i></h3>
+                    <a href> <i class="bx bx-map"></i></a>
+                    <a href> <i class="bx bxl-linkedin"></i></a>
+                    <a href> <i class="bx bxl-instagram"></i></a>
+                    <a href="mailto:serignemodouthiam2@gmail.com"> <i class="bx bxl-gmail"></i></a>
+                </div>
+                <div class="social-media" style="color: #004883;">
+                    <h3>Telephone <i class="bx bx-phone"></i></h3>
+                    <a href> <i class="bx bx-phone-call"></i></a>
+                    <a href> <i class="bx bx-message"></i></a>
+                    <a href> <i class="bx bxl-instagram"></i></a>
+                    <a href> <i class="bx bxl-gmail"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
