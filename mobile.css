@@ -24,11 +24,11 @@
     }
     .menu {
         position: relative;
-        visibility: visible;
+        /* visibility: visible !important; */
         width: 100%;
     }
     .menu-btn {
-        visibility: visible;
+        visibility: visible !important;
         position: absolute;
         display: flex;
         font-size: 3em;
@@ -38,7 +38,7 @@
         cursor: pointer;
     }
     .navbar {
-        visibility: hidden !important;
+        visibility: hidden;
         width: 100%;
         display: flex;
         flex-direction: row;

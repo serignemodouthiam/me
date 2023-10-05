@@ -30,7 +30,7 @@ body {
 }
 
 .navbar {
-    visibility: visible;
+    /* visibility: visible; */
     /* background-color: #2872afd0;
     color: #2872afd0; */
     background-color: #2872af57;
