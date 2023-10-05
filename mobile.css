@@ -28,6 +28,7 @@
         width: 100%;
     }
     .menu-btn {
+        visibility: visible;
         position: absolute;
         display: flex;
         font-size: 3em;
