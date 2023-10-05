@@ -25,7 +25,12 @@ body {
     border-top: solid 2px #0676d1d2;
 }
 
+.menu-btn {
+    visibility: hidden;
+}
+
 .navbar {
+    visibility: visible;
     /* background-color: #2872afd0;
     color: #2872afd0; */
     background-color: #2872af57;

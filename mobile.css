@@ -22,11 +22,27 @@
         flex-direction: column;
         margin-top: 5px;
     }
+    .menu {
+        position: relative;
+        visibility: visible;
+        width: 100%;
+    }
+    .menu-btn {
+        position: absolute;
+        display: flex;
+        font-size: 3em;
+        right: 0;
+        top: 0;
+        color: #004883;
+        cursor: pointer;
+    }
     .navbar {
+        visibility: hidden !important;
         width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        /* transition: 1s; */
         /* display: flex !important;
         flex-direction: row; */
     }
