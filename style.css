@@ -25,16 +25,24 @@ body {
     border-top: solid 2px #0676d1d2;
 }
 
-.menu-btn {
-    visibility: hidden;
+@media screen and (width > 1000px) {
+    .navbar {
+        visibility: visible !important;
+    }
+    .menu-btn {
+        visibility: hidden;
+    }
 }
 
 .navbar {
-    /* visibility: visible; */
     /* background-color: #2872afd0;
     color: #2872afd0; */
     background-color: #2872af57;
-    line-height: 40px;
+    /* line-height: 40px; */
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 1% 0;
+    text-align: center;
     /* border-radius: 5px 5px 10px  10px; */
     /* border-top: solid 2px black; */
     border-left: 5px solid #2872afd0;
@@ -77,8 +85,11 @@ header span {
 }
 
 .navbar a {
-    font-size: 18px;
-    font: 18px "fira sans";
+    display: inline-flex;
+    /* flex-direction: row; */
+    /* margin: 10px; */
+    font-size: 100%;
+    /* font-family: "fira sans"; */
     font-family: helvetica;
     /* font-weight: 200; */
     text-decoration: none;
@@ -89,7 +100,7 @@ header span {
     /* color: #2872afd0; */
     color: whitesmoke;
     /* background-color: #2872af09; */
-    margin: 0 30px;
+    margin: 0 2%;
     letter-spacing: 1.5px;
     transition: 0.5s;
     /* animation-delay: calc(.5s * var(--i)); */
@@ -563,7 +574,8 @@ header span {
 
 .footer-content {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;s */
+    flex-wrap: wrap;
     background-color: #2872af33;
     color: whitesmoke;
     border-radius: 10px;
@@ -584,6 +596,8 @@ header span {
 
 .social-media {
     /* display: flex; */
+    /* text-align: center; */
+    width: 30%;
     border-right: #004883 solid 2px;
     /* flex-direction: column; */
     /* padding: 10px; */
@@ -592,7 +606,7 @@ header span {
 }
 
 .social-media a {
-    margin: 10px 25px;
+    margin: 5% 5%;
     /* color: whitesmoke; */
     /* width:150px ; */
     /* height:50px ; */
@@ -603,7 +617,7 @@ header span {
     /* justify-content: center; */
     border: 2px solid #2872afd0;
     border-radius: 20px;
-    padding: 8px 10px;
+    padding: 3% 6%;
     transition: 0.5s;
 }
 

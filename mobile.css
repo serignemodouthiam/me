@@ -52,7 +52,7 @@
     }
     .home-image img,
     .about img {
-        width: 50% !important;
+        width: 40% !important;
         height: 30% !important;
     }
     .navbar a {
@@ -123,14 +123,31 @@
         border-bottom: 2px solid;
     }
     .social-media a {
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
         font-size: 10px !important;
         margin: 30px 15px !important;
+        padding: 5% 5% !important;
+    }
+    .social-media h3 {
+        margin-top: 10px;
     }
     .social-media {
-        margin: 30px auto !important;
+        width: 80%;
+        margin: 20px auto !important;
         border-top: 2px solid #004883;
         /* padding: auto 10px !; */
+        /* width: 100%; */
         border-right: none;
+        text-align: center;
+    }
+    .social-media-content {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 10px auto;
     }
     .retour {
         display: none !important;
